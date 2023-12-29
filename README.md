@@ -7,7 +7,8 @@
 3. Step 2 -> Run this command to install and launch my SQL container
    `docker run --detach --env MYSQL_ROOT_PASSWORD=Admin --env MYSQL_USER=Admin --env MYSQL_PASSWORD=Admin --env MYSQL_DATABASE=hospital-management-database --name mysql --publish 3306:3306 mysql:8-oracle`
    Addtional you can tweak changes in the application.properties to connect to different databases I have mentioned it there
-   ![text](ScreenShots/Screenshot from 2023-12-28 19-05-05.png)
+   ![Alt text for the image](ScreenShots/Screenshot from 2023-12-28 19-05-05.png)
+
    
 5. Step 3 -> Launch Spring boot application(Backend)
    `cd hospital-management-api`
